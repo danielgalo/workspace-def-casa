@@ -1,0 +1,35 @@
+package com.ac1;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Scanner;
+
+public class Maestro {
+
+	public static void main(String[] args) {
+
+		ProcessBuilder builder = new ProcessBuilder("java", "-cp", "bin", "com.ac1.Esclavo");
+
+		String cadena = "";
+		Scanner sc = new Scanner(System.in);
+		PrintWriter writer = null;
+
+		try {
+
+			Process proceso = builder.inheritIO().start();
+
+			do {
+				System.out.println("Introduce una cadena (vacía para terminar)");
+				cadena = sc.nextLine();
+
+			} while (!cadena.isBlank());
+
+		} catch (IOException e) {
+
+			e.printStackTrace();
+
+		}
+
+		sc.close();
+	}
+}

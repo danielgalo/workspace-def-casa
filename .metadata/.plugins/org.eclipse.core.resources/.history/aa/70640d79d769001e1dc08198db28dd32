@@ -1,0 +1,13 @@
+import java.io.File;
+
+public class ResumeFicheroApp {
+
+	public static void main(String[] args) {
+
+		String fichero = "ejemplo.txt";
+
+		File archivoEjemplo = new File(fichero);
+
+	}
+
+}

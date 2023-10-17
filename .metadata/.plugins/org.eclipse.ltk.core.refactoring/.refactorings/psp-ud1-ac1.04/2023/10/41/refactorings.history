@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move source folder &apos;src&apos; to &apos;hlc-ud02-ac2.01&apos;&#x0D;&#x0A;- Original project: &apos;psp-ud1-ac1.04&apos;&#x0D;&#x0A;- Destination element: &apos;hlc-ud02-ac2.01&apos;&#x0D;&#x0A;- Original element: &apos;psp-ud1-ac1.04/src&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move source folder" destination="=hlc-ud02-ac2.01" element1="/src" flags="6" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveRoots" roots="1" stamp="1697042746880" version="1.0"/>
+</session>

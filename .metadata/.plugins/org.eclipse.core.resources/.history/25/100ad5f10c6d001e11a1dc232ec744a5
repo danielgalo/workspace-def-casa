@@ -1,0 +1,45 @@
+package com.ac1;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.PrintWriter;
+import java.util.Scanner;
+
+public class Maestro {
+
+	public static void main(String[] args) {
+
+		ProcessBuilder builder = new ProcessBuilder("java", "-cp", "bin", "com.ac1.Esclavo");
+		try {
+
+			Process proceso = builder.start();
+
+			// Salida estandar del proceso esclavo
+			OutputStream salidaEsclavo = proceso.getOutputStream();
+			PrintWriter writer = new PrintWriter(salidaEsclavo);
+
+			String input = "";
+			Scanner sc = new Scanner(System.in);
+
+			do {
+				System.out.println("Introduce una cadena, vacia para terminar");
+				input = sc.nextLine();
+				writer.println(input);
+
+				BufferedReader reader = new BufferedReader(new InputStreamReader(proceso.getInputStream()));
+				String output = reader.readLine();
+
+				System.out.println("Mays " + output);
+
+			} while (!input.isBlank());
+			// Leer salida del esclavo
+		} catch (IOException e) {
+
+			e.printStackTrace();
+
+		}
+
+	}
+}

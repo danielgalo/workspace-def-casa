@@ -1,0 +1,20 @@
+package main;
+
+import utils.Parametros;
+import utils.ResumeFichero;
+
+public class ResumeFicheroApp {
+
+	public static void main(String[] args) {
+
+		Parametros param = new Parametros(args);
+
+		ResumeFichero rf = new ResumeFichero(param.getNombreFichero(), param.getAlgoritmo());
+
+		String resumen = rf.getContenidoReducido();
+
+		System.out.println("Contenido resumido con el algoritmo " + rf.getAlgoritmo() + ": " + resumen);
+
+	}
+
+}

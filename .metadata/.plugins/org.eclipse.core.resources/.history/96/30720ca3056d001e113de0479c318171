@@ -1,0 +1,11 @@
+package com.ac1;
+
+public class Maestro {
+
+	public static void main(String[] args) {
+
+		ProcessBuilder builder = new ProcessBuilder("java", "-cp", "bin", "com.ac1.Esclavo");
+		Process proceso = builder.start();
+
+	}
+}

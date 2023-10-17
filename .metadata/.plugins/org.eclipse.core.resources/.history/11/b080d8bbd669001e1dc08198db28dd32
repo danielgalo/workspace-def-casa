@@ -1,0 +1,12 @@
+
+public class ResumeFicheroApp {
+
+	public static void main(String[] args) {
+
+		
+
+		 MessageDigest md = MessageDigest.getInstance("SHA-256");
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package utils;
+
+public class Constantes {
+
+	/** Nombre de la ruta al fichero de claves */
+	public static String FICHERO_CLAVES = "rsakeys";
+
+	/** Nombre de la ruta al fichero de claves */
+	public static String ALIAS = "rsakeys";
+
+	private Constantes() {
+
+	}
+}

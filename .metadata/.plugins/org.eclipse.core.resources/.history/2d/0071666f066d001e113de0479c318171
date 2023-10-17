@@ -1,0 +1,15 @@
+package com.ac1;
+
+import java.io.BufferedReader;
+
+public class Esclavo {
+
+	public static void main(String[] args) {
+
+		
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		
+		
+	}
+
+}

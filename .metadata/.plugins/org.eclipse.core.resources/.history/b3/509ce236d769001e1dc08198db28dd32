@@ -1,0 +1,11 @@
+
+public class ResumeFicheroApp {
+
+	public static void main(String[] args) {
+		
+		String fichero = "ejemplo.txt";
+		
+		
+	}
+
+}

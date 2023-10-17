@@ -1,0 +1,24 @@
+package main;
+
+import utils.DescifraRSA;
+import utils.Parametro;
+
+public class DescifraRSAApp {
+
+	/** Nombre de la ruta al fichero de claves */
+	private static String FICHERO_CLAVES = "rsakeys";
+
+	/** Nombre de la ruta al fichero de claves */
+	private static String ALIAS = "rsakeys";
+
+	public static void main(String[] args) throws Exception {
+
+		Parametro param = new Parametro(args);
+
+		DescifraRSA descifraRSA = new DescifraRSA(param.getMensaje(), param.getPassword());
+
+		descifraRSA.getMensajeDescifrado(FICHERO_CLAVES, ALIAS);
+
+	}
+
+}

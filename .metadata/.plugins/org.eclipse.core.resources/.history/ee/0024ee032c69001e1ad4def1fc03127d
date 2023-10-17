@@ -1,0 +1,52 @@
+package utils;
+
+public class Parametro {
+
+	private String mensaje;
+	private String password;
+
+	/**
+	 * @param mensaje
+	 * @param password
+	 */
+	public Parametro(String[] parametros) {
+
+		if (parametros.length != 2) {
+			System.err.println(
+					"Error, la aplicación debe de tener 2 parámetros. Parámetros introducidos: " + parametros.length);
+		} else {
+			mensaje = parametros[0];
+			password = parametros[1];
+		}
+
+	}
+
+	/**
+	 * @return the mensaje
+	 */
+	public String getMensaje() {
+		return mensaje;
+	}
+
+	/**
+	 * @param mensaje the mensaje to set
+	 */
+	public void setMensaje(String mensaje) {
+		this.mensaje = mensaje;
+	}
+
+	/**
+	 * @return the password
+	 */
+	public String getPassword() {
+		return password;
+	}
+
+	/**
+	 * @param password the password to set
+	 */
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+}

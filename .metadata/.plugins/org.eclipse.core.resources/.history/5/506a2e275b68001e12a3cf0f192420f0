@@ -1,0 +1,17 @@
+package main;
+
+import utils.Parametro;
+
+public class CifraRSAApp {
+
+	public static void main(String[] args) throws Exception {
+
+
+		Parametro param = new Parametro(args);
+
+		// Alias del fichero
+		String alias = "rsakeys";
+
+	}
+
+}

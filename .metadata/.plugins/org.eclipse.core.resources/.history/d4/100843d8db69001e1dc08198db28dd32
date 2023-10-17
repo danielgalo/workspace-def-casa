@@ -1,0 +1,19 @@
+package utils;
+
+public class Parametros {
+
+	private String nombreFichero;
+	private String algoritmo;
+
+	private static final String ALGORITMO_DEFECTO = "SHA-256";
+
+	public Parametros(String[] params) {
+
+		if (params.length < 1) {
+			nombreFichero = params[0];
+			algoritmo = "SHA-256";
+		}
+
+	}
+
+}

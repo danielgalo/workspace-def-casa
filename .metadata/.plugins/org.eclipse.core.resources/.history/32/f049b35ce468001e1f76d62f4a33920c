@@ -1,0 +1,23 @@
+package main;
+
+import utils.Constantes;
+import utils.DescifraRSA;
+import utils.Parametro;
+
+/**
+ * Aplicación para descifrar un mensaje pasado por parámetros
+ */
+public class DescifraRSAApp {
+
+	public static void main(String[] args) throws Exception {
+
+		Parametro param = new Parametro(args);
+
+		DescifraRSA descifraRSA = new DescifraRSA(param.getMensaje(), param.getPassword());
+
+		String mensajeDescifrado = descifraRSA.getMensajeDescifrado(Constantes.FICHERO_CLAVES, Constantes.ALIAS);
+
+		System.out.println("Mensaje descifrado: " + mensajeDescifrado);
+	}
+
+}

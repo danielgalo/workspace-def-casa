@@ -1,0 +1,16 @@
+package main;
+
+import utils.Parametros;
+import utils.ResumeFichero;
+
+public class ResumeFicheroApp {
+
+	public static void main(String[] args) {
+
+		Parametros param = new Parametros(args);
+		
+		ResumenFichero rf = new ResumeFichero(param.getNombreFichero(), param.getAlgoritmo());
+
+	}
+
+}

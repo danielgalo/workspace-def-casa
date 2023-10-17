@@ -1,0 +1,19 @@
+package main;
+
+public class CifraRSAApp {
+
+	public static void main(String[] args) {
+
+		// Contraseña del fichero de claves
+		String mesnaje = args[0];
+		
+		// Contraseña del fichero de claves
+		String password = args[1];
+		
+		// Alias del fichero
+		String alias = "rsakeys";
+		
+		
+	}
+
+}

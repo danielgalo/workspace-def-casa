@@ -1,0 +1,94 @@
+package utils;
+
+import java.io.File;
+import java.nio.charset.StandardCharsets;
+import java.security.Key;
+import java.security.KeyStore;
+import java.util.Base64;
+
+import javax.crypto.Cipher;
+
+/**
+ * Esta clase se encarga de descifrar un mensaje a través del algoritmo
+ * asimétrico RSA
+ * 
+ */
+public class DescifraRSA {
+
+	/** Mensaje a descifrar */
+	private String mensaje;
+
+	/** Contraseña del archivo que contiene las keys */
+	private String password;
+
+	/**
+	 * Constructor
+	 * 
+	 * @param mensaje
+	 * @param password
+	 */
+	public DescifraRSA(String mensaje, String password) {
+		setMensaje(mensaje);
+		setPassword(password);
+	}
+
+	/**
+	 * Descifra un mensaje cifrado a través del algoritmo asimétrico RSA
+	 * 
+	 * @param archivoClaves el archivo que contiene las keys
+	 * @param alias         del archivo keytool
+	 * @return el mensaje descifrado
+	 */
+	public String getMensajeDescifrado(String archivoClaves, String alias) {
+
+		byte[] mensajeBytes = null;
+
+		try {
+			KeyStore almacen = KeyStore.getInstance(new File(archivoClaves), password.toCharArray());
+
+			Key clavePrivada = almacen.getKey(alias, password.toCharArray());
+
+			Cipher cifrador = Cipher.getInstance("RSA");
+			cifrador.init(Cipher.DECRYPT_MODE, clavePrivada);
+
+			mensajeBytes = cifrador.doFinal(Base64.getDecoder().decode(mensaje));
+
+		} catch (Exception e) {
+
+			e.printStackTrace();
+		}
+
+		String mensajeDescifrado = new String(mensajeBytes, StandardCharsets.UTF_8);
+
+		return mensajeDescifrado;
+	}
+
+	/**
+	 * @return the mensaje
+	 */
+	public String getMensaje() {
+		return mensaje;
+	}
+
+	/**
+	 * @param mensaje the mensaje to set
+	 */
+	public void setMensaje(String mensaje) {
+		this.mensaje = mensaje;
+	}
+
+	/**
+	 * @return the password
+	 */
+	public String getPassword() {
+		return password;
+	}
+
+	/**
+	 * @param password the password to set
+	 */
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+}

@@ -1,0 +1,88 @@
+package utils;
+
+import java.io.File;
+import java.security.KeyStore;
+import java.security.PublicKey;
+import java.security.cert.Certificate;
+import java.util.Base64;
+
+import javax.crypto.Cipher;
+
+/**
+ * Esta clase se encarga de cifrar un mensaje a través del algoritmo asimétrico
+ * RSA
+ * 
+ */
+public class CifradoRSA {
+
+	/** El mensaje a cifrar */
+	private String mensaje;
+
+	/** Contraseña del archivo que contiene las keys */
+	private String password;
+
+	/**
+	 * @param mensaje
+	 * @param password
+	 */
+	public CifradoRSA(String mensaje, String password) {
+		super();
+		setMensaje(mensaje);
+		setPassword(password);
+	}
+
+	public String getMensajeCifrado(String archivoClaves, String alias) {
+
+		byte[] mensajeCifrado = null;
+
+		try {
+
+			// Crear almacen de claves
+			KeyStore almacen = KeyStore.getInstance(new File(archivoClaves), password.toCharArray());
+
+			// Sacar el certificado para conseguir la clave pública
+			Certificate certificado = almacen.getCertificate(alias);
+			PublicKey clavePublica = certificado.getPublicKey();
+
+			// Cifrador
+			Cipher cifrador = Cipher.getInstance("RSA");
+			cifrador.init(Cipher.ENCRYPT_MODE, clavePublica);
+
+			// Cifrar el mensaje
+			mensajeCifrado = cifrador.doFinal(mensaje.getBytes());
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return Base64.getEncoder().encodeToString(mensajeCifrado);
+	}
+
+	/**
+	 * @return the mensaje
+	 */
+	public String getMensaje() {
+		return mensaje;
+	}
+
+	/**
+	 * @param mensaje the mensaje to set
+	 */
+	public void setMensaje(String mensaje) {
+		this.mensaje = mensaje;
+	}
+
+	/**
+	 * @return the password
+	 */
+	public String getPassword() {
+		return password;
+	}
+
+	/**
+	 * @param password the password to set
+	 */
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+}

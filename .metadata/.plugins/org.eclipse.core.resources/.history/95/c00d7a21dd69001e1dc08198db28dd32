@@ -1,0 +1,13 @@
+package main;
+
+import utils.Parametros;
+
+public class ResumeFicheroApp {
+
+	public static void main(String[] args) {
+
+		Parametros param = new Parametros(args);
+		
+	}
+
+}

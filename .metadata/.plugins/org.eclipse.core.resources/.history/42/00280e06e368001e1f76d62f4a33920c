@@ -1,0 +1,51 @@
+package utils;
+
+public class DescifraRSA {
+
+	private String mensaje;
+	private String password;
+
+	/**
+	 * @param mensaje
+	 * @param password
+	 */
+	public DescifraRSA(String mensaje, String password) {
+		super();
+		this.mensaje = mensaje;
+		this.password = password;
+	}
+
+	public String getMensajeDescifrado(String archivoClaves, String alias) {
+
+		return null;
+	}
+
+	/**
+	 * @return the mensaje
+	 */
+	public String getMensaje() {
+		return mensaje;
+	}
+
+	/**
+	 * @param mensaje the mensaje to set
+	 */
+	public void setMensaje(String mensaje) {
+		this.mensaje = mensaje;
+	}
+
+	/**
+	 * @return the password
+	 */
+	public String getPassword() {
+		return password;
+	}
+
+	/**
+	 * @param password the password to set
+	 */
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <booleanAttribute key="org.eclipse.debug.core.ATTR_FORCE_SYSTEM_CONSOLE_ENCODING" value="false"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/hlc-ud02-ac203/src/main/DescifraRSAApp.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_SHOW_CODEDETAILS_IN_EXCEPTION_MESSAGES" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="main.DescifraRSAApp"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value=""/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="VXFbmgdaLvJxIU93SgKtbEv2mcClQTVI2w+7b8G2a4AG/beNXZe8yqJNtaQ9fGtpPoUr+re14i1ewxe8UuCqxqjz4oFUBbzDKaznx1U0xK/H/EKvkGGCGzxuLJ9dPBKMwiTvKMtutY5Qp2WXXseFay/RPC3YHnlA/GCrv7nmlayMj0BVCknFu2vv4lo5ToxN2zNmYdwGyMw5e5CLbi49puJQK3D1zrTmT9tXA55yrWEhhvZc1OodiOrx0nbuRbDTFpPQR5yGGOyg/KuidfKL7h7RKDo8UX4ZTIa556VIL1GIGQ1FOePH9vArs3OxX9tyDEoofAWmdEIQ565YhJIhuQ== password"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="hlc-ud02-ac203"/>
+</launchConfiguration>

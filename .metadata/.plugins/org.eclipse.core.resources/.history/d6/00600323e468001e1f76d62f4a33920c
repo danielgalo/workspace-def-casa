@@ -1,0 +1,21 @@
+package main;
+
+import utils.DescifraRSA;
+import utils.Parametro;
+
+public class DescifraRSAApp {
+
+
+
+	public static void main(String[] args) throws Exception {
+
+		Parametro param = new Parametro(args);
+
+		DescifraRSA descifraRSA = new DescifraRSA(param.getMensaje(), param.getPassword());
+
+		String mensajeDescifrado = descifraRSA.getMensajeDescifrado(FICHERO_CLAVES, ALIAS);
+
+		System.out.println("Mensaje descifrado: " + mensajeDescifrado);
+	}
+
+}

@@ -1,0 +1,27 @@
+package com.ac1;
+
+import java.io.IOException;
+import java.io.OutputStream;
+import java.io.PrintWriter;
+
+public class Maestro {
+
+	public static void main(String[] args) {
+
+		ProcessBuilder builder = new ProcessBuilder("java", "-cp", "bin", "com.ac1.Esclavo");
+		try {
+
+			Process proceso = builder.start();
+
+			// Salida estandar del proceso esclavo
+			OutputStream salidaEsclavo = proceso.getOutputStream();
+			PrintWriter writer = new PrintWriter(salidaEsclavo);
+
+		} catch (IOException e) {
+
+			e.printStackTrace();
+
+		}
+
+	}
+}

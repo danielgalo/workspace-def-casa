@@ -1,0 +1,33 @@
+package main;
+
+import utils.CifradoRSA;
+import utils.Parametro;
+
+public class CifraRSAApp {
+
+	/** Nombre de la ruta al fichero de claves */
+	private static String FICHERO_CLAVES = "rsakeys";
+
+	/** Nombre de la ruta al fichero de claves */
+	private static String ALIAS = "rsakeys";
+
+	/**
+	 * Método principal
+	 * 
+	 * @param args
+	 * @throws Exception
+	 */
+	public static void main(String[] args) throws Exception {
+
+		// Controlar parametros
+		Parametro param = new Parametro(args);
+
+		// Cifrar mensaje pasado por parámetros
+		CifradoRSA cifraRSA = new CifradoRSA(param.getMensaje(), param.getPassword());
+		String mensajeCifrado = cifraRSA.getMensajeCifrado(FICHERO_CLAVES, ALIAS);
+
+		// Imprimir el mensaje
+		System.out.println(mensajeCifrado);
+	}
+
+}

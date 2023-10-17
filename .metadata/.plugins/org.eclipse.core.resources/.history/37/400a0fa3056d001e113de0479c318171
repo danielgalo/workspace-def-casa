@@ -1,0 +1,21 @@
+package com.ac1;
+
+import java.io.IOException;
+
+public class Maestro {
+
+	public static void main(String[] args) {
+
+		ProcessBuilder builder = new ProcessBuilder("java", "-cp", "bin", "com.ac1.Esclavo");
+		try {
+			
+			Process proceso = builder.start();
+			
+		} catch (IOException e) {
+			
+			e.printStackTrace();
+			
+		}
+
+	}
+}

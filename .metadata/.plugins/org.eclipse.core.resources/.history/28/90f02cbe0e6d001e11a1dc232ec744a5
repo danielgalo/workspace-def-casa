@@ -1,0 +1,62 @@
+package com.ac1;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Random;
+
+public class Esclavo {
+
+	public static void main(String[] args) {
+
+		// Buffer para leer la entrada
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+		try {
+
+			String input = "";
+
+			// Leer la entrada mientras no este vacia
+			do {
+
+				input = reader.readLine();
+				String resultado = input.toUpperCase();
+				System.out.println(resultado);
+
+			} while (!input.isBlank());
+
+		} catch (IOException e) {
+
+			e.printStackTrace();
+
+		}
+
+	}
+
+	private String getCadenaModificada(int operacion, String cadena) {
+
+		String resultado = "";
+
+		if (operacion == 1) {
+			// Pasar  todo a mayuscula
+			resultado = cadena.toUpperCase();
+			
+		} else if (operacion == 2) {
+			// Pasar todo a minuscula
+			resultado = cadena.toLowerCase();
+			
+		} else if (operacion == 3) {
+
+		}
+
+		return resultado;
+	}
+
+	private int getRandomInt(int max, int min) {
+
+		Random rand = new Random();
+		return rand.nextInt(max) + min;
+
+	}
+
+}
