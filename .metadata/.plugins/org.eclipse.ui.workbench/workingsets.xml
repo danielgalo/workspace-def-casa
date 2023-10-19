@@ -7,6 +7,7 @@
 <item elementID="=ejemplo-procesos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=psp-ac106" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=psp-ac105" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=psp-ac111" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1696266891372_5" label="Seguridad en Programacion" name="Seguridad en Programacion">
 <item elementID="=hlc-ud02-ac2.01" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
