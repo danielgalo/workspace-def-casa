@@ -15,6 +15,8 @@ import javax.crypto.Cipher;
  */
 public class CifradoRSA {
 
+	private static final String PASSWORD = "12345678";
+
 	/** El mensaje a cifrar */
 	private String mensaje;
 
@@ -47,7 +49,7 @@ public class CifradoRSA {
 		try {
 
 			// Crear almacen de claves
-			KeyStore almacen = KeyStore.getInstance(new File(archivoClaves), alias.toCharArray());
+			KeyStore almacen = KeyStore.getInstance(new File(archivoClaves), PASSWORD.toCharArray());
 
 			// Sacar el certificado para conseguir la clave pública
 			Certificate certificado = almacen.getCertificate(alias);

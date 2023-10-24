@@ -15,6 +15,8 @@ import javax.crypto.Cipher;
  */
 public class DescifraRSA {
 
+	private static final String PASSWORD = "12345678";
+
 	/** Mensaje a descifrar */
 	private String mensaje;
 
@@ -46,10 +48,10 @@ public class DescifraRSA {
 		try {
 
 			// Crear almacen de claves
-			KeyStore almacen = KeyStore.getInstance(new File(archivoClaves), alias.toCharArray());
+			KeyStore almacen = KeyStore.getInstance(new File(archivoClaves), PASSWORD.toCharArray());
 
 			// Sacar la clave privada del almacén
-			Key clavePrivada = almacen.getKey(alias, alias.toCharArray());
+			Key clavePrivada = almacen.getKey(alias, PASSWORD.toCharArray());
 
 			// Descifrar
 			Cipher descifrador = Cipher.getInstance(Constantes.ALGORITMO);

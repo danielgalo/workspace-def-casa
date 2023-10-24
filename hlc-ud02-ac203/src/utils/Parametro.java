@@ -5,6 +5,10 @@ package utils;
  */
 public class Parametro {
 
+	private static final String MSG_POR_DEFECTO = "Hola";
+
+	private static final String ALIAS_KEYSTORE = "claves";
+
 	/** Parámetro mensaje */
 	private String mensaje;
 
@@ -17,11 +21,15 @@ public class Parametro {
 	 */
 	public Parametro(String[] parametros) {
 
-		if (parametros.length != 2) {
-			System.err.println(
-					"Error, la aplicación debe de tener 2 parámetros. Parámetros introducidos: " + parametros.length);
+		if (parametros.length < 1) {
+			mensaje = MSG_POR_DEFECTO;
 		} else {
 			mensaje = parametros[0];
+		}
+
+		if (parametros.length < 2) {
+			alias = ALIAS_KEYSTORE;
+		} else {
 			alias = parametros[1];
 		}
 
