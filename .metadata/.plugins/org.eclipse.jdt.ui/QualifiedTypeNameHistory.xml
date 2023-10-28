@@ -29,8 +29,6 @@
     <fullyQualifiedTypeName name="utils.Parametros"/>
     <fullyQualifiedTypeName name="utils.ResumeFichero"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="dto.EjemploManagement"/>
     <fullyQualifiedTypeName name="java.nio.file.Paths"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
@@ -45,4 +43,18 @@
     <fullyQualifiedTypeName name="java.nio.file.Path"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="dao.Cliente"/>
+    <fullyQualifiedTypeName name="dao.Producto"/>
+    <fullyQualifiedTypeName name="gui.PantallaPeliculas"/>
+    <fullyQualifiedTypeName name="utils.Conexion"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="utils.SakilaManagement"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="dao.Pelicula"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="gui.PantallaPrincipal"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.swing.JTable"/>
+    <fullyQualifiedTypeName name="javax.swing.table.DefaultTableModel"/>
+    <fullyQualifiedTypeName name="utils.ClienteManagement"/>
 </qualifiedTypeNameHistroy>

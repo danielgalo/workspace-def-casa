@@ -20,6 +20,11 @@
 <item elementID="=tarea03-ficheros" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=tarea01-ficheros" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=prueba-jdbc" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/aadd-jdbc-tarea03" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1698250860632_8" label="Desarrollo de Interfaces" name="Desarrollo de Interfaces">
+<item elementID="=tarea-swing" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=di-swing-tarea02" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1693342452403_2" label="Window Working Set" name="Aggregate for window 1693342452403"/>
 <mruList name="Seguridad en Programacion"/>

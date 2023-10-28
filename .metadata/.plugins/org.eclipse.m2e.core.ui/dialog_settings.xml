@@ -25,13 +25,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.example"/>
 		</list>
 		<list key="groupId">
-			<item value="com.daniel.ejemplo"/>
 		</list>
 		<list key="artifactId">
-			<item value="ejemplo-maven"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -47,10 +44,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="aadd.jdbc"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="aadd-jdbc-tarea03"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
