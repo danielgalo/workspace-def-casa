@@ -15,6 +15,7 @@
 <item elementID="=hlc-ud02-ac203" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=hlc-ud02-ac204" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=hlc-ud02-ac203-corregida" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=hlc-ud03-ac302" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1696862863877_6" label="Acceso a Datos" name="Acceso a Datos">
 <item elementID="=tarea03-ficheros" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
