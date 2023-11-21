@@ -15,7 +15,7 @@
 <item elementID="=hlc-ud02-ac203" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=hlc-ud02-ac204" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=hlc-ud02-ac203-corregida" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=hlc-ud03-ac302" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=hlc-ud03-ac303-javaproject" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1696862863877_6" label="Acceso a Datos" name="Acceso a Datos">
 <item elementID="=tarea03-ficheros" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
@@ -26,6 +26,8 @@
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1698250860632_8" label="Desarrollo de Interfaces" name="Desarrollo de Interfaces">
 <item elementID="=tarea-swing" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=di-swing-tarea02" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=di-practicaex-swing" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=di-swing-examen" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1693342452403_2" label="Window Working Set" name="Aggregate for window 1693342452403"/>
 <mruList name="Seguridad en Programacion"/>

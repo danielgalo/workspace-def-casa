@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.mysql.jdbc.Statement"/>
-    <fullyQualifiedTypeName name="com.mysql.jdbc.ResultSet"/>
-    <fullyQualifiedTypeName name="java.io.File"/>
-    <fullyQualifiedTypeName name="java.util.prefs.PreferenceChangeEvent"/>
-    <fullyQualifiedTypeName name="java.io.BufferedInputStream"/>
-    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
-    <fullyQualifiedTypeName name="java.util.Base64"/>
-    <fullyQualifiedTypeName name="java.io.DataInputStream"/>
-    <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
-    <fullyQualifiedTypeName name="java.io.EOFException"/>
-    <fullyQualifiedTypeName name="utils.MyObjectOutPutStream"/>
-    <fullyQualifiedTypeName name="java.security.cert.Certificate"/>
-    <fullyQualifiedTypeName name="java.security.PublicKey"/>
     <fullyQualifiedTypeName name="utils.CifradoRSA"/>
     <fullyQualifiedTypeName name="java.security.KeyStore"/>
     <fullyQualifiedTypeName name="java.security.Key"/>
@@ -46,18 +33,31 @@
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="dao.Pelicula"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="gui.PantallaPrincipal"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="javax.swing.JTable"/>
     <fullyQualifiedTypeName name="utils.ClienteManagement"/>
     <fullyQualifiedTypeName name="javax.swing.RowFilter"/>
-    <fullyQualifiedTypeName name="javax.swing.table.DefaultTableModel"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="javax.swing.DefaultRowSorter"/>
     <fullyQualifiedTypeName name="utils.Validation"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="utils.ValidateValues"/>
+    <fullyQualifiedTypeName name="gui.PantallaPrincipal"/>
+    <fullyQualifiedTypeName name="gui.ListadoPersona"/>
+    <fullyQualifiedTypeName name="utils.PersonaManagement"/>
+    <fullyQualifiedTypeName name="javax.swing.table.DefaultTableModel"/>
+    <fullyQualifiedTypeName name="dto.Persona"/>
+    <fullyQualifiedTypeName name="dto.User"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="gui.PRegistro"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="gui.PNuevaClase"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="gui.PPrincipalCliente"/>
+    <fullyQualifiedTypeName name="gui.PListaClientes"/>
+    <fullyQualifiedTypeName name="gui.PLogin"/>
+    <fullyQualifiedTypeName name="main.GymPicassoMain"/>
 </qualifiedTypeNameHistroy>
