@@ -5,9 +5,9 @@
 	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo.comments" value="false"/>
 	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo" value="false"/>
 	<item key="org.eclipse.jdt.ui.lastextjar" value="D:\DAM\2º\Interfaces\di-swing-tarea02\lib"/>
-	<item key="org.eclipse.jdt.ui.last.external.project" value="C:\dev\Instituto\Workspaces\workspace1-2dam\hlc-ud03-ac303-javaproject"/>
+	<item key="org.eclipse.jdt.ui.last.external.project" value="C:\dev\Instituto\Workspaces\workspace1-2dam\psp-ud02-ac203"/>
 	<list key="workingset_selection_history">
-		<item value="Seguridad en Programacion"/>
+		<item value="Programacion de Servicios y Procesos"/>
 	</list>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
@@ -91,6 +91,12 @@
 	<section name="RenameInformationPopup">
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item key="renameSubpackages" value="false"/>
+		<item key="updateTextualMatches" value="false"/>
+		<item key="updateQualifiedNames" value="false"/>
+		<item key="patterns" value="*"/>
+		<item key="updateSimilarElements" value="false"/>
+		<item key="updateSimilarElementsMatchStrategy" value="1"/>
 	</section>
 	<section name="FatJarPackageWizard">
 		<item key="FatJarPackageWizardPage.ANTSCRIPT_SAVE" value="false"/>
@@ -129,5 +135,15 @@
 	</section>
 	<section name="SelfEncapsulateFieldWizard">
 		<item key="GenerateJavadoc" value="false"/>
+	</section>
+	<section name="OverrideMethodDialog">
+		<item key="showtypes" value="true"/>
+	</section>
+	<section name="DialogBounds_OverrideMethodDialog">
+		<item key="DIALOG_X_ORIGIN" value="706"/>
+		<item key="DIALOG_Y_ORIGIN" value="182"/>
+		<item key="DIALOG_WIDTH" value="524"/>
+		<item key="DIALOG_HEIGHT" value="513"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>

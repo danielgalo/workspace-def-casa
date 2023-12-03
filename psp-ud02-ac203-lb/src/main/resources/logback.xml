@@ -1,0 +1,50 @@
+<configuration>
+
+	<!-- Variables -->
+	<timestamp key="logDate" datePattern="dd-MM-yyyy" />
+
+	<!-- Logger principal -->
+	<root level="trace">
+		<appender-ref ref="consola" />
+		<appender-ref ref="ficheroRolling" />
+	</root>
+
+	<!-- Logger por consola -->
+	<appender name="consola" class="ch.qos.logback.core.ConsoleAppender">
+
+		<!-- Formato -->
+		<encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+			<layout class="com.nttdata.logback.NTTDataLayout">
+				<prefix>Taller Logback</prefix>
+				<printThread />
+			</layout>
+		</encoder>
+	</appender>
+	
+	<!-- Salida fichero tipo rolling -->
+	<appender name="ficheroRolling" class="ch.qos.logback.core.rolling.RollingFileAppender">
+	
+		<!-- Nombre de fichero y ruta en la que aparecera -->
+		<file>./logs/logDgv-${logDate}.log</file>
+		
+		<!-- Tratamiento del fichero -->
+		<rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+			<fileNamePattern>./logs/logDgv-${logDate}.%i.zip</fileNamePattern>
+		</rollingPolicy>
+		
+		<!-- Cantidad de ficheros -->
+		<minIndex>1</minIndex>
+		<maxIndex>3</maxIndex>
+		
+		<!-- Tamanyo maximo de separacion de archivos -->
+		<triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+			<maxFileSize>50KB</maxFileSize>
+		</triggeringPolicy>
+		
+		<!-- Formato -->
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-4level %logger{32} - [%method] - %msg%n</pattern>
+		</encoder>
+	</appender>
+	
+</configuration>

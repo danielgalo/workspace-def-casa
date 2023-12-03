@@ -1,27 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="utils.CifradoRSA"/>
-    <fullyQualifiedTypeName name="java.security.KeyStore"/>
-    <fullyQualifiedTypeName name="java.security.Key"/>
-    <fullyQualifiedTypeName name="javax.security.cert.Certificate"/>
-    <fullyQualifiedTypeName name="javax.crypto.Cipher"/>
-    <fullyQualifiedTypeName name="utils.Parametro"/>
     <fullyQualifiedTypeName name="utils.DescifraRSA"/>
     <fullyQualifiedTypeName name="java.security.MessageDigest"/>
     <fullyQualifiedTypeName name="utils.Parametros"/>
     <fullyQualifiedTypeName name="utils.ResumeFichero"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="dto.EjemploManagement"/>
-    <fullyQualifiedTypeName name="java.nio.file.Paths"/>
-    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.Writer"/>
     <fullyQualifiedTypeName name="java.io.OutputStream"/>
     <fullyQualifiedTypeName name="java.util.concurrent.ArrayBlockingQueue"/>
-    <fullyQualifiedTypeName name="java.lang.ProcessBuilder"/>
-    <fullyQualifiedTypeName name="java.nio.file.Files"/>
     <fullyQualifiedTypeName name="java.nio.file.Path"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="dao.Cliente"/>
@@ -54,10 +44,20 @@
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="gui.PNuevaClase"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="gui.PPrincipalCliente"/>
     <fullyQualifiedTypeName name="gui.PListaClientes"/>
     <fullyQualifiedTypeName name="gui.PLogin"/>
     <fullyQualifiedTypeName name="main.GymPicassoMain"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.lang.ProcessBuilder"/>
+    <fullyQualifiedTypeName name="psp.ud02.actividad203.constants.PropertiesConstants"/>
+    <fullyQualifiedTypeName name="java.awt.Graphics2D"/>
+    <fullyQualifiedTypeName name="psp.ud02.actividad203.workers.Dispatcher"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.awt.image.BufferedImage"/>
+    <fullyQualifiedTypeName name="javax.imageio.ImageIO"/>
+    <fullyQualifiedTypeName name="psp.ud02.actividad203.utils.ImageCompressor"/>
+    <fullyQualifiedTypeName name="java.nio.file.Files"/>
+    <fullyQualifiedTypeName name="java.nio.file.Paths"/>
 </qualifiedTypeNameHistroy>
