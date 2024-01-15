@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-    <typeInfo handle="=Ejemplo/src&lt;ejemplo.management{Person.java[Person" modifiers="1" timestamp="1693342753592"/>
-    <typeInfo handle="=psp-ud02-ac203/C:\/dev\/Software\/Eclipse\/eclipse\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/module=/true=/&lt;java.lang(Thread.class[Thread" modifiers="33" timestamp="1693471790000"/>
+    <typeInfo handle="=picasso-spring-t2-dgv/C:\/dev\/Entornos\/JDK\/jdk-21.0.1\/lib\/jrt-fs.jar`java.sql=/module=/true=/=/maven.pomderived=/true=/&lt;javax.sql(CommonDataSource.class[CommonDataSource" modifiers="1537" timestamp="1696513780000"/>
+    <typeInfo handle="=picasso-spring-t2-dgv/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.picasso.service{CommonServiceI.java[CommonServiceI" modifiers="513" timestamp="1704974762530"/>
+    <typeInfo handle="=danielgv-proyfin/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.proyfin.service{ElementServiceI.java[ElementServiceI" modifiers="513" timestamp="1704737011176"/>
+    <typeInfo handle="=danielgv-proyfin/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.proyfin.service{BlockServiceI.java[BlockServiceI" modifiers="513" timestamp="1704540838583"/>
+    <typeInfo handle="=picasso-spring-t3-dgv/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.picasso.service{CustomerServiceI.java[CustomerServiceI" modifiers="513" timestamp="1705168521146"/>
 </typeInfoHistroy>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth0" value="74"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth1" value="650"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth2" value="82"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.sortColumn" value="1"/>
 	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
 		<item key="ShowStatusLine" value="true"/>
 		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=hlc-ud02-ac204/src&amp;lt;main{ResumeFicheroApp.java[ResumeFicheroApp&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=hlc-ud02-ac203/src&amp;lt;main{CifraRSAApp.java[CifraRSAApp&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=hlc-ud02-ac203/src&amp;lt;main{DescifraRSAApp.java[DescifraRSAApp&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
@@ -12,5 +16,11 @@
 		</section>
 	</section>
 	<section name="expressionHistory">
+	</section>
+	<section name="org.eclipse.jdt.internal.debug.ui.ExpressionInformationControlCreator$ExpressionInformationControl">
+		<item key="WIDTH" value="614"/>
+		<item key="HEIGHT" value="194"/>
+		<item key="SashWeightTree" value="200"/>
+		<item key="SashWeightDetails" value="200"/>
 	</section>
 </section>

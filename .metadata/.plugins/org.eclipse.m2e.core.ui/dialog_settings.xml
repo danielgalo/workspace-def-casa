@@ -13,7 +13,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
-		<item key="catalog" value="internal"/>
+		<item key="catalog" value="All Catalogs"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -25,10 +25,19 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="main"/>
+			<item value="psp.unidad02"/>
 		</list>
 		<list key="groupId">
+			<item value="prueba"/>
+			<item value="aadd.hibernate"/>
+			<item value="psp.imageprocessing"/>
 		</list>
 		<list key="artifactId">
+			<item value="tabla-periodica-prueba"/>
+			<item value="chatgpt-prueba"/>
+			<item value="aadd-hibernate-tarea04"/>
+			<item value="psp-ud02-ac203-lb"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -44,12 +53,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="aadd.jdbc"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="aadd-jdbc-tarea03"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -66,5 +73,38 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenCheckoutLocationPage">
+		<list key="scmUrl">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\dev\Recursos DUAL\talleres-dual-segundo\picasso-spring-t3-dgv"/>
+			<item value="C:\dev\Recursos DUAL\Proyecto final\danielgv-proyfin"/>
+			<item value="D:\DAM\2º\Interfaces\di-prueba-api"/>
+			<item value="C:\dev\Recursos DUAL\talleres-dual-segundo\picasso-t3-spring-dgv"/>
+			<item value="C:\dev\Recursos DUAL\talleres-dual-segundo\picasso-spring-t1-dgv"/>
+			<item value="C:\dev\Recursos DUAL\talleres-dual-segundo\picasso-spring-t2-dgv"/>
+			<item value="C:\dev\Recursos DUAL\Proyectos Spring\picasso-spring-t1-dgv"/>
+			<item value="C:\dev\Instituto\Workspaces\workspace1-2dam\aadd-hibernate-tarea02"/>
+			<item value="C:\dev\Recursos DUAL\Proyectos Spring\spring-example"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
 	</section>
 </section>
