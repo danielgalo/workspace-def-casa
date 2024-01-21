@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.picasso.service.BuildingManagementI"/>
-    <fullyQualifiedTypeName name="com.picasso.service.BuildingManagementImpl"/>
-    <fullyQualifiedTypeName name="com.picasso.persistence.repositories.PersonRepositoryI"/>
-    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
-    <fullyQualifiedTypeName name="org.hibernate.boot.MetadataSources"/>
-    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
-    <fullyQualifiedTypeName name="utils.HibernateUtils"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
-    <fullyQualifiedTypeName name="com.picasso.service.utils.Constants"/>
-    <fullyQualifiedTypeName name="com.picasso.service.utils.FieldValidation"/>
-    <fullyQualifiedTypeName name="com.picasso.persistence.repositories.ClientRepositoryI"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="com.picasso.service.ClientManagementServiceI"/>
     <fullyQualifiedTypeName name="com.picasso.persistence.entities.Client"/>
     <fullyQualifiedTypeName name="okhttp3.RequestBody"/>
     <fullyQualifiedTypeName name="okhttp3.Response"/>
@@ -50,7 +37,6 @@
     <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.picasso.persistence.entities.Customer"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
@@ -60,4 +46,18 @@
     <fullyQualifiedTypeName name="okhttp3.Request"/>
     <fullyQualifiedTypeName name="com.squareup.okhttp.Response"/>
     <fullyQualifiedTypeName name="java.nio.file.Path"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="psp.unidad03.practica01.properties.PropertiesProcessor"/>
+    <fullyQualifiedTypeName name="org.hibernate.Query"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="persistence.dao.implementations.PeliculaDaoImpl"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.ComboBox"/>
+    <fullyQualifiedTypeName name="persistence.entities.Company"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="persistence.dao.interfaces.CompanyDaoI"/>
+    <fullyQualifiedTypeName name="persistence.dao.implementations.GeneroDaoImpl"/>
+    <fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+    <fullyQualifiedTypeName name="persistence.dao.interfaces.GeneroDaoI"/>
 </qualifiedTypeNameHistroy>

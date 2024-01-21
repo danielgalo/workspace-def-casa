@@ -4,8 +4,9 @@
 	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-17"/>
 	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo.comments" value="false"/>
 	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo" value="false"/>
-	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Users\danie\Downloads"/>
-	<item key="org.eclipse.jdt.ui.last.external.project" value="C:\dev\Instituto\Workspaces\The-Movie-App\Java\the-movie-app"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="D:\DAM\2º\HLC\ejemplo01\lib"/>
+	<item key="org.eclipse.jdt.ui.last.external.project" value="C:\dev\Instituto\di-swing-examen-corregido"/>
+	<item key="ProjectSelectionDialog.show_all" value="true"/>
 	<list key="workingset_selection_history">
 		<item value="Desarrollo de Interfaces"/>
 	</list>
@@ -158,5 +159,109 @@
 		<item key="DIALOG_WIDTH" value="373"/>
 		<item key="DIALOG_HEIGHT" value="549"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="JavadocWizardDialog">
+		<item key="DIALOG_X_ORIGIN" value="660"/>
+		<item key="DIALOG_Y_ORIGIN" value="146"/>
+		<item key="DIALOG_WIDTH" value="616"/>
+		<item key="DIALOG_HEIGHT" value="567"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="javadoc">
+		<item key="javadoc_command_history" value="C:\dev\Entornos\JDK\jdk-21.0.1\bin\javadoc.exe;C:\dev\Entornos\JDK\jdk-19.0.2\bin\javadoc.exe"/>
+		<item key="fromStandard" value="true"/>
+		<item key="docletname" value=""/>
+		<item key="docletpath" value=""/>
+		<item key="access" value="package"/>
+		<item key="use" value="true"/>
+		<item key="author" value="true"/>
+		<item key="version" value="true"/>
+		<item key="nodeprecated" value="false"/>
+		<item key="nodeprecatedlist" value="false"/>
+		<item key="splitindex" value="true"/>
+		<item key="noindex" value="false"/>
+		<item key="notree" value="false"/>
+		<item key="nonavbar" value="false"/>
+		<item key="openinbrowser" value="false"/>
+		<item key="source" value="17"/>
+		<item key="antpath" value="D:\DAM\2º\Interfaces\di-swing-examen-corregido\javadoc.xml"/>
+		<item key="destdir" value="C:\Users\danie\Desktop\javadoc\javadoc"/>
+		<section name="projects">
+			<section name="aadd-hibernate-dao">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\dev\Instituto\Workspaces\workspace1-2dam\aadd-hibernate-dao\doc"/>
+				<item key="antpath" value="C:\dev\Instituto\Workspaces\workspace1-2dam\aadd-hibernate-dao\javadoc.xml"/>
+			</section>
+			<section name="picasso-spring-t3-dgv">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\danie\Desktop"/>
+				<item key="antpath" value="C:\dev\Recursos DUAL\talleres-dual-segundo\picasso-spring-t3-dgv\javadoc.xml"/>
+			</section>
+			<section name="danielgv-proyfin">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\dev\Recursos DUAL\Proyecto final\danielgv-proyfin\doc"/>
+				<item key="antpath" value="C:\dev\Recursos DUAL\Proyecto final\danielgv-proyfin\javadoc.xml"/>
+			</section>
+			<section name="picasso-spring-t1-dgv">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\danie\Desktop\Desarrollo"/>
+				<item key="antpath" value="D:\DAM\2º\Interfaces\di-swing-examen-corregido\javadoc.xml"/>
+			</section>
+			<section name="chatgpt-prueba">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\danie\eclipse-workspace\chatgpt-prueba\doc"/>
+				<item key="antpath" value="C:\Users\danie\eclipse-workspace\chatgpt-prueba\javadoc.xml"/>
+			</section>
+			<section name="psp-ud03-ac301">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\danie\eclipse-workspace\psp-ud03-ac301\doc"/>
+				<item key="antpath" value="C:\Users\danie\eclipse-workspace\psp-ud03-ac301\javadoc.xml"/>
+			</section>
+			<section name="di-swing-tarea02">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\danie\Desktop"/>
+				<item key="antpath" value="D:\DAM\2º\Interfaces\di-swing-tarea02\javadoc.xml"/>
+			</section>
+			<section name="Ejemplo 3.01">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\DAM\2º\PSP\Tema 3\Ejemplos\Ejemplo3.01\doc"/>
+				<item key="antpath" value="D:\DAM\2º\PSP\Tema 3\Ejemplos\Ejemplo3.01\javadoc.xml"/>
+			</section>
+			<section name="Ejemplo 3.03">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\DAM\2º\PSP\Tema 3\Ejemplos\Ejemplo3.03\doc"/>
+				<item key="antpath" value="D:\DAM\2º\PSP\Tema 3\Ejemplos\Ejemplo3.03\javadoc.xml"/>
+			</section>
+			<section name="psp-ud02-ac205">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\dev\Instituto\Workspaces\workspace1-2dam\psp-ud02-ac205\doc"/>
+				<item key="antpath" value="C:\dev\Instituto\Workspaces\workspace1-2dam\psp-ud02-ac205\javadoc.xml"/>
+			</section>
+			<section name="Ejemplo 3.02">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\DAM\2º\PSP\Tema 3\Ejemplos\Ejemplo3.02\doc"/>
+				<item key="antpath" value="D:\DAM\2º\PSP\Tema 3\Ejemplos\Ejemplo3.02\javadoc.xml"/>
+			</section>
+			<section name="the-movie-app">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\dev\Instituto\Workspaces\The-Movie-App\Java\the-movie-app\doc"/>
+				<item key="antpath" value="C:\dev\Instituto\Workspaces\The-Movie-App\Java\the-movie-app\javadoc.xml"/>
+			</section>
+			<section name="picasso-spring-t2-dgv">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\dev\Recursos DUAL\talleres-dual-segundo\picasso-spring-t2-dgv\doc"/>
+				<item key="antpath" value="C:\dev\Recursos DUAL\talleres-dual-segundo\picasso-spring-t2-dgv\javadoc.xml"/>
+			</section>
+			<section name="di-swing-examen-corregido">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\danie\Desktop\javadoc\javadoc"/>
+				<item key="antpath" value="D:\DAM\2º\Interfaces\di-swing-examen-corregido\javadoc.xml"/>
+			</section>
+			<section name="hlc-ud04-ejerciciobase">
+				<item key="href" value=""/>
+				<item key="destdir" value="D:\DAM\2º\HLC\ejemplo01\doc"/>
+				<item key="antpath" value="D:\DAM\2º\HLC\ejemplo01\javadoc.xml"/>
+			</section>
+		</section>
 	</section>
 </section>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<list key="workingset_selection_history">
+		<item value="Desarrollo de Interfaces"/>
+	</list>
 	<section name="org.eclipse.ui.internal.dialogs.WorkbenchEditorsDialog">
 		<item key="allPersp" value="false"/>
 		<item key="sort" value="0"/>
@@ -23,11 +26,12 @@
 	</section>
 	<section name="ImportExportAction">
 		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.jdt.internal.ui.fatjarpackager.JarPackageWizard"/>
-		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.m2e.core.wizards.Maven2ImportWizard"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
 		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
 			<item value="org.eclipse.jdt.ui.Java"/>
 		</list>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
 			<item value="org.eclipse.m2e"/>
 		</list>
 	</section>

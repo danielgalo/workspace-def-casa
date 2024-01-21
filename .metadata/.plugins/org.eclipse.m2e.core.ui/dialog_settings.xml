@@ -88,6 +88,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\danie\eclipse-workspace\aadd-hibernate-tarea04"/>
+			<item value="C:\dev\Instituto\Workspaces\workspace1-2dam\aadd-hibernate-dao"/>
 			<item value="C:\dev\Recursos DUAL\talleres-dual-segundo\picasso-spring-t3-dgv"/>
 			<item value="C:\dev\Recursos DUAL\Proyecto final\danielgv-proyfin"/>
 			<item value="D:\DAM\2º\Interfaces\di-prueba-api"/>
