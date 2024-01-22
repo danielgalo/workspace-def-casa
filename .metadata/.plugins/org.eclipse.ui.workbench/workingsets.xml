@@ -25,6 +25,7 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/hlc-ud02-ac203-corregida" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/hlc-ud03-ac303-javaproject" type="4"/>
 <item elementID="=hlc-ud04-ejerciciobase" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=hlc-ud04-ac401" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1696862863877_6" label="Acceso a Datos" name="Acceso a Datos">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tarea03-ficheros" type="4"/>
