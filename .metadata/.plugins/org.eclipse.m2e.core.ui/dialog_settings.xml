@@ -88,6 +88,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\dev\Instituto\Proyecto TMA\The-Movie-App\Java\di-the-movie-app"/>
+			<item value="C:\Users\danie\Desktop\di-the-movie-app-prueba"/>
 			<item value="C:\Users\danie\eclipse-workspace\aadd-hibernate-tarea04"/>
 			<item value="C:\dev\Instituto\Workspaces\workspace1-2dam\aadd-hibernate-dao"/>
 			<item value="C:\dev\Recursos DUAL\talleres-dual-segundo\picasso-spring-t3-dgv"/>
