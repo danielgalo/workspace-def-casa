@@ -1,0 +1,102 @@
+IDEA TFG
+
+* GENERAL
+
+Gestión de un compraventa. Administrador tendrá funciones de manejar personal, ver balance, exportar datos. Trabajador tendrá funciones de compraventa y ver a clientes, vendedores y el stock de coches.
+
+
+Java - Spring (Spring data) - MySQL
+JavaFX interfaz
+
+* ENTIDADES
+
+	- Administrador 
+		* ID
+		* NOMBRE
+		* APELLIDOS
+		* DNI
+	- Trabajador -> Gestiona compraventa
+		* ID
+		* NOMBRE
+		* APELLIDOS
+		* DNI
+		* FUNCION {Compraventa, Mecanico}
+	- Cliente -> Compra coches. 
+		* ID
+		* NOMBRE
+		* APELLIDOS
+		* DNI
+		* Coches<> (lista de coches comprados)
+	- Vendedor -> vende coches. 
+		* ID
+		* NOMBRE
+		* APELLIDOS
+		* DNI
+		* Coches<> (lista de coches comprados)
+	- Coche 
+		* ID
+		* Marca
+		* Modelo
+		* Año
+		* Kilometraje
+		* Descripcion
+		* Combustible
+		* Cilindrada
+		* CV
+		* Nº plazas
+		* Cambio (Manual, automatico)
+		* Puertas
+		* Tipo (berlina, sedan, hatchback...)
+		* Precio Compra
+		* Precio venta
+		* Vendedor (al q se lo ha comprado el concesionario)
+		* Cliente (en caso de venderlo, a quien se lo venda)
+		* Trabajador (el que lo venda)
+	- Venta
+		* ID
+		* Comprador (quien compra el coche)
+		* Trabajador (q realiza la venta)
+		* Coche
+		* Precio
+	- Compra
+		* ID
+		* Vendedor (a quien le compramos el coche)
+		* Trabajador (q realiza la compra)
+		* Coche
+		* Precio
+
+	- Mantenimiento
+		* ID
+		* Mantenimiento (revision, reparacion...)
+		* Coste
+		* Coche
+		* Mecánico	( el trabajador mismo )	
+
+* PANTALLAS  /  FUNCIONALIDADES
+
+	- Común
+		-> Login 
+		-> Menu principal
+		
+	- Administrador
+
+		-> Registro: registro de personal (PANTALLA REGISTRO)
+		-> Trabajadores: CRUD
+		-> Balance 
+			(pantalla con todas las ventas y balance
+ 			hasta el momento)
+		-> Exportar a fichero
+			-> Balance
+			->   Coches 
+
+	
+	- Trabajador
+	
+		-> Clientes / Vendedores: CRUD	
+		-> Compras y ventas: CRUD.
+		-> Coches en stock (Listos para vender): CRUD
+	
+			
+			
+		
+	

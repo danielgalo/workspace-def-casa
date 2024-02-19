@@ -25,15 +25,20 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.pruebapdf"/>
+			<item value="com.test"/>
 			<item value="main"/>
 			<item value="psp.unidad02"/>
 		</list>
 		<list key="groupId">
+			<item value="com.test"/>
 			<item value="prueba"/>
 			<item value="aadd.hibernate"/>
 			<item value="psp.imageprocessing"/>
 		</list>
 		<list key="artifactId">
+			<item value="prueba-pdf"/>
+			<item value="email-prueba"/>
 			<item value="tabla-periodica-prueba"/>
 			<item value="chatgpt-prueba"/>
 			<item value="aadd-hibernate-tarea04"/>
@@ -88,6 +93,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\dev\Instituto\Workspaces\workspace1-2dam\javafx-junit"/>
+			<item value="C:\dev\Instituto\Workspaces\The-Movie-App\Java\di-the-movie-app"/>
 			<item value="C:\dev\Instituto\Proyecto TMA\The-Movie-App\Java\di-the-movie-app"/>
 			<item value="C:\Users\danie\Desktop\di-the-movie-app-prueba"/>
 			<item value="C:\Users\danie\eclipse-workspace\aadd-hibernate-tarea04"/>
