@@ -43,7 +43,7 @@ public class ClientHandlerWorker extends Thread {
 		}
 	}
 
-	private String processPetition(String petition) {
+	public String processPetition(String petition) {
 		// Procesar los posibles comandos recibidos
 		if (petition.startsWith(Constants.LIST_COMMAND)) {
 
@@ -52,7 +52,7 @@ public class ClientHandlerWorker extends Thread {
 			if (argumentsIntroduced(commands)) {
 				// Ejecutar comando
 				String path = commands[1];
-				return FileUtils.listFolder(path);// TODO método lo hace bien, llega arriba a response como null
+				return FileUtils.listFolder(path);
 
 			} else {
 				// No se proporcionó la ruta
@@ -66,6 +66,7 @@ public class ClientHandlerWorker extends Thread {
 			if (argumentsIntroduced(commands)) {
 				// Ejecutar comando
 				String path = commands[1];
+
 				return FileUtils.showFile(path);
 
 			} else {

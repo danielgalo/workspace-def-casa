@@ -52,6 +52,7 @@ public class FileServerApp {
 				// Crear y arrancar hilo
 				ClientHandlerWorker worker = new ClientHandlerWorker(clientSocket);
 				worker.start();
+				petition = worker.processPetition(petition);
 
 			} while (!petition.equals(Constants.QUIT_COMMAND));
 

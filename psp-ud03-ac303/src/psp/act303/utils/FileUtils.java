@@ -82,13 +82,13 @@ public class FileUtils {
 	 *          ...
 	 */
 	public static String showFile(String path) {
+		StringBuilder result = new StringBuilder();
 
 		try (BufferedReader reader = new BufferedReader(new FileReader(path))) {
 
 			String line;
 			int numLines = 0;
 
-			StringBuilder result = new StringBuilder();
 			StringBuilder fileContent = new StringBuilder();
 
 			while ((line = reader.readLine()) != null) {
@@ -103,7 +103,7 @@ public class FileUtils {
 			e.printStackTrace();
 			return Constants.KO;
 		}
-		return null;
+		return result.toString();
 	}
 
 }
